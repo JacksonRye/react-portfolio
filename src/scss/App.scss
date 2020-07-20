@@ -1,0 +1,40 @@
+@import "config";
+@import "About";
+@import "Skills";
+@import "Hobbies";
+@import "Blog";
+@import "Experiences";
+
+body {
+  background: #dfdfdf;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.151);
+}
+
+.App {
+  display: grid;
+  gap: 1rem;
+
+  main {
+    display: flex;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@import "mobile";

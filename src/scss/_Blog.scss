@@ -1,0 +1,13 @@
+.Blog {
+  padding: 1rem;
+  .head {
+    display: flex;
+    .image {
+      width: 50%;
+      img {
+        height: 80%;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@include mediaMd {
+  .About {
+    .text {
+      .info {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.About {
+  display: flex;
+
+
+  img {
+      width: 30%;
+      padding: 1rem;
+      object-fit: contain;
+      border-radius: 25px;
+    //   height: 200px;
+  }
+
+  .text {
+      margin-top: 1rem;
+      line-height: 1.5;
+    .info {
+    //   width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+
+      .start {
+        text-align: start;
+      }
+
+      .end {
+        text-align: end;
+      }
+    }
+  }
+}
+
+

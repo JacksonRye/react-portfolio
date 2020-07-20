@@ -1,0 +1,19 @@
+.Skills {
+  width: 100%;
+  padding: 0 1rem;
+
+  h3 {
+    padding-top: 0.5rem;
+  }
+  li {
+    line-height: 1.8;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+    label {
+        font-size: 0.7rem;
+    }
+  }
+}
